@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Monika Schnitzer — Professor of Economics, LMU Munich</title>
-  <meta name="description" content="Monika Schnitzer holds the Chair for Comparative Economics at LMU Munich and chairs the German Council of Economic Experts.">
+  <meta name="description" content="Monika Schnitzer holds the Chair for Comparative Economics at LMU Munich and chairs the German Council of Economic Experts. Research on innovation, competition policy, and multinational firms.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -26,107 +29,269 @@
   </header>
 
   <main id="main">
+
+    <!-- HERO -->
     <section class="hero">
       <div class="container hero-grid">
-        <img class="hero-portrait" src="images/portrait.jpg" alt="Portrait of Monika Schnitzer" width="420" height="525">
         <div>
-          <p class="hero-eyebrow">Professor of Economics · LMU Munich</p>
+          <p class="eyebrow">Professor of Economics <span class="sep">·</span> Ludwig-Maximilians-Universität München</p>
           <h1>Monika Schnitzer</h1>
+          <p class="hero-subtitle">Chairwoman of the German Council of Economic Experts</p>
           <p class="hero-lede">
-            Chair for Comparative Economics at the Ludwig-Maximilians-University of Munich
-            and chairwoman of the German Council of Economic Experts. Research on innovation,
-            competition policy, and multinational firms.
+            Economist working on innovation, competition policy, and the multinational firm —
+            and a public advisor on German and European economic policy.
           </p>
-          <p>
-            <a href="cv.html" class="btn">Curriculum Vitae</a>
-            <a href="research.html" class="btn btn-ghost">Research</a>
-          </p>
+          <div class="cta-row">
+            <a href="research.html" class="btn">Read the research</a>
+            <a href="cv.html" class="btn btn-ghost">Curriculum Vitae</a>
+          </div>
+        </div>
+        <div class="hero-portrait-wrap">
+          <img class="hero-portrait" src="images/portrait.jpg" alt="Portrait of Monika Schnitzer" width="380" height="475">
         </div>
       </div>
     </section>
 
+    <!-- AFFILIATIONS STRIP -->
+    <div class="strip">
+      <div class="container">
+        <span class="strip-label">Currently</span>
+        <div class="strip-items">
+          <span>Chair, German Council of Economic Experts</span>
+          <span>Co-chair, Franco-German Council of Economic Experts</span>
+          <span>Member, Leopoldina · Bavarian Academy of Sciences</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURED -->
     <section class="section">
       <div class="container">
-        <p class="section-title">News</p>
-        <h2>Annual Report 2025/26 published</h2>
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Latest</p>
+            <h2>Annual Report 2025/26</h2>
+          </div>
+          <a class="head-link" href="https://www.sachverstaendigenrat-wirtschaft.de/jahresgutachten-2025.html" target="_blank" rel="noopener">All reports →</a>
+        </div>
 
-        <article class="news-card">
+        <article class="feature-card">
           <figure>
             <img src="images/news-jahresgutachten.jpg" alt="Cover of the German Council of Economic Experts Annual Report 2025/26">
-            <figcaption style="font-size:0.8rem;color:var(--muted);margin-top:0.5rem;">Bild: Sachverständigenrat</figcaption>
+            <figcaption>Bild: Sachverständigenrat</figcaption>
           </figure>
           <div>
-            <p class="news-meta">12 November 2025</p>
-            <h3>Jahresgutachten 2025/2026</h3>
-            <p class="news-sub">Perspektiven für morgen schaffen — Chancen nicht verspielen</p>
+            <p class="feature-meta">12 November 2025 · Sachverständigenrat</p>
+            <h3>Perspektiven für morgen schaffen — Chancen nicht verspielen</h3>
+            <p class="feature-sub">The Council's annual report, presented to the Federal Government.</p>
             <p>
-              The German Council of Economic Experts (SVR) presented its Annual Report 2025/26
-              to the Federal Government on 12 November. Alongside the cyclical outlook for the
-              current and coming year, the report covers the additionality of investment in the
-              special infrastructure and climate-neutrality fund (SVIK), strengthening the
-              European single market, the distribution of wealth in Germany, the taxation of
-              inheritances and gifts, and reform options for corporate taxation.
+              Alongside the cyclical outlook, the 2025/26 report addresses the additionality of
+              investment in the special infrastructure and climate-neutrality fund, the European
+              single market, the distribution of wealth, the taxation of inheritances and gifts,
+              and reform options for corporate taxation.
             </p>
-            <p>
-              It also includes the chapters on cutting bureaucracy, structural change, and the
-              investment orientation of the SVIK, which were already published in the spring.
-            </p>
-            <p>
-              <a href="https://www.sachverstaendigenrat-wirtschaft.de/jahresgutachten-2025.html" target="_blank" rel="noopener">Read the report →</a>
+            <p class="mt-2">
+              <a href="https://www.sachverstaendigenrat-wirtschaft.de/jahresgutachten-2025.html" target="_blank" rel="noopener">Read the full report →</a>
             </p>
           </div>
         </article>
       </div>
     </section>
 
+    <!-- ABOUT -->
     <section class="section section-alt">
-      <div class="container cols-2">
-        <div>
-          <p class="section-title">About</p>
-          <h2>Economist, advisor, educator.</h2>
+      <div class="container about-grid">
+        <div class="about-prose">
+          <p class="eyebrow">About</p>
+          <h2>An economist on the policy frontier.</h2>
           <p>
             Monika Schnitzer holds the Chair for Comparative Economics at LMU Munich.
-            Her research focuses on innovation, competition policy, and the behaviour
-            of multinational firms.
+            Her research investigates how firms innovate, how competition shapes markets,
+            and how multinational activity links national economies.
           </p>
           <p>
-            She has chaired the German Council of Economic Experts (Sachverständigenrat
-            zur Begutachtung der gesamtwirtschaftlichen Entwicklung) since 2022 and has
-            been a council member since 2020. Since 2023 she co-chairs the Franco-German
-            Council of Economic Experts.
+            Beyond academic work, she chairs the German Council of Economic Experts —
+            the independent advisory body to the Federal Government — having joined as
+            council member in 2020 and assumed the chair in 2022. She co-chairs the
+            Franco-German Council of Economic Experts and serves on the Expert
+            Commission for the Modernisation of the Debt Rule.
           </p>
           <p>
+            She studied at Cologne, Bonn and the London School of Economics, and held
+            visiting positions at Stanford, Yale, UC Berkeley and Harvard. She is a
+            member of Leopoldina and the Bavarian Academy of Sciences, and was awarded
+            the Gustav Stolper Award and an honorary doctorate from Kiel University in 2022.
+          </p>
+          <p class="mt-2">
             <a href="cv.html">Full biography and CV →</a>
           </p>
         </div>
-        <div>
-          <p class="section-title">Selected affiliations</p>
-          <ul class="list-clean">
-            <li><span class="year">2025–</span><span>Expert Commission on Modernising the Debt Rule</span></li>
-            <li><span class="year">2023–</span><span>Co-chair, Franco-German Council of Economic Experts</span></li>
-            <li><span class="year">2022–</span><span>Chairwoman, German Council of Economic Experts</span></li>
-            <li><span class="year">2022–</span><span>Member, Leopoldina (German National Academy of Sciences)</span></li>
-            <li><span class="year">2008–</span><span>Member, Bavarian Academy of Sciences</span></li>
-            <li><span class="year">2001–</span><span>Scientific Advisory Council, Federal Ministry for Economic Affairs</span></li>
-          </ul>
+
+        <aside>
+          <div class="fact-card">
+            <h4>At a glance</h4>
+            <ul>
+              <li><span class="year">1996–</span><span>Chair, LMU Munich</span></li>
+              <li><span class="year">2020–</span><span>Council of Economic Experts</span></li>
+              <li><span class="year">2022–</span><span>Chairwoman of the Council</span></li>
+              <li><span class="year">2023–</span><span>Franco-German Council</span></li>
+              <li><span class="year">2025–</span><span>Debt Rule Commission</span></li>
+            </ul>
+            <h4 style="margin-top:1.5rem;">Research areas</h4>
+            <p style="margin:0;">
+              <span class="tag">Innovation</span>
+              <span class="tag">Competition policy</span>
+              <span class="tag">Multinational firms</span>
+              <span class="tag">Industrial organisation</span>
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- RESEARCH THEMES -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Research</p>
+            <h2>What I work on.</h2>
+          </div>
+          <a class="head-link" href="research.html">Full publications →</a>
+        </div>
+
+        <div class="theme-grid">
+          <article class="theme-card">
+            <div class="theme-num">i.</div>
+            <h3>Innovation</h3>
+            <p>The economics of R&amp;D, patenting, and the diffusion of technology — and what they imply for productivity and growth.</p>
+            <a class="theme-link" href="research.html#innovation">Selected work →</a>
+          </article>
+          <article class="theme-card">
+            <div class="theme-num">ii.</div>
+            <h3>Competition policy</h3>
+            <p>How competition rules shape firm conduct and consumer welfare, with attention to digital markets and platforms.</p>
+            <a class="theme-link" href="research.html#competition">Selected work →</a>
+          </article>
+          <article class="theme-card">
+            <div class="theme-num">iii.</div>
+            <h3>Multinational firms</h3>
+            <p>Foreign direct investment, internal organisation, and the spillovers that linked production networks generate for host economies.</p>
+            <a class="theme-link" href="research.html#multinational">Selected work →</a>
+          </article>
         </div>
       </div>
     </section>
+
+    <!-- SELECTED PUBLICATIONS -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Selected publications</p>
+            <h2>Recent papers and reports.</h2>
+          </div>
+          <a class="head-link" href="https://scholar.google.de/citations?user=EcnBiYoAAAAJ" target="_blank" rel="noopener">Google Scholar →</a>
+        </div>
+
+        <ul class="pub-list">
+          <li>
+            <span class="year">2025</span>
+            <span>
+              <span class="pub-title">Jahresgutachten 2025/26 — Perspektiven für morgen schaffen</span>
+              <span class="pub-venue">Sachverständigenrat zur Begutachtung der gesamtwirtschaftlichen Entwicklung</span>
+            </span>
+            <a class="pub-link" href="https://www.sachverstaendigenrat-wirtschaft.de/jahresgutachten-2025.html" target="_blank" rel="noopener">Report ↗</a>
+          </li>
+          <li>
+            <span class="year">2024</span>
+            <span>
+              <span class="pub-title">[Add publication title]</span>
+              <span class="pub-venue">Journal · co-authors</span>
+            </span>
+            <a class="pub-link" href="#">PDF</a>
+          </li>
+          <li>
+            <span class="year">2023</span>
+            <span>
+              <span class="pub-title">[Add publication title]</span>
+              <span class="pub-venue">Journal · co-authors</span>
+            </span>
+            <a class="pub-link" href="#">PDF</a>
+          </li>
+          <li>
+            <span class="year">2023</span>
+            <span>
+              <span class="pub-title">[Add publication title]</span>
+              <span class="pub-venue">Journal · co-authors</span>
+            </span>
+            <a class="pub-link" href="#">PDF</a>
+          </li>
+          <li>
+            <span class="year">2022</span>
+            <span>
+              <span class="pub-title">[Add publication title]</span>
+              <span class="pub-venue">Journal · co-authors</span>
+            </span>
+            <a class="pub-link" href="#">PDF</a>
+          </li>
+        </ul>
+        <p class="text-muted" style="font-size:0.9rem;margin-top:1rem;">Replace stubs once the publication list is in.</p>
+      </div>
+    </section>
+
+    <!-- IN THE NEWS (dark) -->
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">In the news</p>
+            <h2>Recent media.</h2>
+          </div>
+          <a class="head-link" href="media.html">All appearances →</a>
+        </div>
+
+        <div class="media-grid">
+          <article class="media-item">
+            <p class="media-outlet">Outlet</p>
+            <h4><a href="#">Add headline of recent op-ed or interview.</a></h4>
+            <p class="media-date">November 2025</p>
+          </article>
+          <article class="media-item">
+            <p class="media-outlet">Outlet</p>
+            <h4><a href="#">Add headline of recent op-ed or interview.</a></h4>
+            <p class="media-date">October 2025</p>
+          </article>
+          <article class="media-item">
+            <p class="media-outlet">Outlet</p>
+            <h4><a href="#">Add headline of recent op-ed or interview.</a></h4>
+            <p class="media-date">September 2025</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
         <div>
-          <h4>Monika Schnitzer</h4>
-          <p>Chair for Comparative Economics<br>Ludwig-Maximilians-University Munich</p>
+          <span class="brand-foot">Monika Schnitzer</span>
+          <p>Chair for Comparative Economics<br>Ludwig-Maximilians-Universität München<br>Akademiestraße 1/III · 80799 Munich</p>
         </div>
         <div>
           <h4>Site</h4>
           <ul>
+            <li><a href="index.html">Home</a></li>
             <li><a href="cv.html">CV</a></li>
             <li><a href="research.html">Research</a></li>
             <li><a href="media.html">Media</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>More</h4>
+          <ul>
             <li><a href="policy.html">Policy</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
@@ -135,11 +300,14 @@
           <h4>External</h4>
           <ul>
             <li><a href="https://scholar.google.de/citations?user=EcnBiYoAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
-            <li><a href="https://www.sachverstaendigenrat-wirtschaft.de/en.html" target="_blank" rel="noopener">German Council of Economic Experts</a></li>
+            <li><a href="https://www.sachverstaendigenrat-wirtschaft.de/en.html" target="_blank" rel="noopener">Council of Economic Experts</a></li>
           </ul>
         </div>
       </div>
-      <p class="copy">© <span id="year">2025</span> Monika Schnitzer.</p>
+      <div class="copy">
+        <span>© <span id="year">2025</span> Monika Schnitzer.</span>
+        <span>Built as a static site.</span>
+      </div>
     </div>
   </footer>
 
